@@ -25,6 +25,10 @@ Insert brass inserts map: ** Ignore this; once I have the actual measurements an
 # Schematic
 <img width="663" height="407" alt="shematic" src="https://github.com/user-attachments/assets/44d2183a-5f65-4367-a244-d735f0b4f708" />
 
+# PCB
+This PCB is fully optional, and u can use it for cable management, if ur ok with messy cables, ignore it; if u want something clean, make the PCB (all Gerber files are under the PCB folder)
+<img width="221" height="268" alt="PCB screenshot" src="https://github.com/user-attachments/assets/3ffff288-5c76-4155-b24f-d4b91c9488a9" />
+
 
 # BOM
 |Part|Amount|Price|Link|

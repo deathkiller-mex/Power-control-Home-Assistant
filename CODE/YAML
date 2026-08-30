@@ -1,0 +1,87 @@
+esphome:
+  name: smart-bench-controller
+  friendly_name: Workbench Power
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+api:
+logger:
+ota:
+wifi:
+  ssid: "YOUR_WIFI_NAME"
+  password: "YOUR_WIFI_PASSWORD"
+
+# --- AC ZONE: 120V RELAYS ---
+switch:
+  - platform: gpio
+    pin: 
+      number: GPIO4
+      inverted: true
+    name: "Relay 1"
+  - platform: gpio
+    pin: 
+      number: GPIO16
+      inverted: true
+    name: "Relay 2"
+  - platform: gpio
+    pin: 
+      number: GPIO17
+      inverted: true
+    name: "Relay 3"
+  - platform: gpio
+    pin: 
+      number: GPIO18
+      inverted: true
+    name: "Relay 4"
+  - platform: gpio
+    pin: 
+      number: GPIO19
+      inverted: true
+    name: "Relay 5"
+  - platform: gpio
+    pin: 
+      number: GPIO21
+      inverted: true
+    name: "Relay 6"
+  - platform: gpio
+    pin: 
+      number: GPIO22
+      inverted: true
+    name: "Relay 7"
+  - platform: gpio
+    pin: 
+      number: GPIO23
+      inverted: true
+    name: "Relay 8"
+
+# --- DC ZONE: MOSFET PWM CONTROL ---
+output:
+  - platform: ledc
+    pin: GPIO25
+    id: mosfet_12v_1
+  - platform: ledc
+    pin: GPIO26
+    id: mosfet_12v_2
+  - platform: ledc
+    pin: GPIO27
+    id: mosfet_5v_1
+  - platform: ledc
+    pin: GPIO32
+    id: mosfet_5v_2
+
+light:
+  - platform: monochromatic
+    output: mosfet_12v_1
+    name: "Port 12V 1"
+  - platform: monochromatic
+    output: mosfet_12v_2
+    name: "Port 12V 2"
+  - platform: monochromatic
+    output: mosfet_5v_1
+    name: "Port 5V 1"
+  - platform: monochromatic
+    output: mosfet_5v_2
+    name: "Port 5V 2"

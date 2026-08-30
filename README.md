@@ -28,6 +28,12 @@ QUICK IMPORTANT NOTICE: THE ACTUAL GUIDE ON HOW TO SET UP HA WILL NOT BE INCLUDE
 
 
 
-
-
 # What for??
+Buck Power Converter Step Down Voltage Regulator 12V-5V 20A: steps down 12V to 5V, safe for most appliances and USB hub.
+USB Female port: Connect DC appliances (12V and 5V).
+Female Wall Socket: Connect AC appliances.
+Power Supply 12V 120W: Supplies DC to the USB ports and USB hub.
+MOSFET Relay LR7843-30V 161A: Controls power (on/off) for DC appliances (12V and 5V).
+8-channel Relay with optocoupler:  Controls power (on/off) for AC appliances.
+ESP-32: Brain to control the relays and connect to HA.
+FE2.1 Based USB 2.0 7 Port Hub Splitter: Enables the computer to communicate with other devices digitally through the USB ports rather than turning things on or off.

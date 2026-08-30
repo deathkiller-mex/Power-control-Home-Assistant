@@ -4,10 +4,23 @@ So after setting up HA and tinkering with it, I got the idea from, of course, JA
 
 QUICK IMPORTANT NOTICE: THE ACTUAL GUIDE ON HOW TO SET UP HA WILL NOT BE INCLUDED IN THIS GITHUB PAGE. I WILL ONLY GUIDE U THROUGH THE DESIGN I MADE AS WELL AS SETTING  UP THE ESP32 TO CONTROL THE POWER CONTROLLER.
 
+----------------------------------
+# THE PROJECT IS NOT DONE YET. UNFORTUNATELY, THE PARTS HAVE NO FULL DIMENSIONS PUBLISHED, SO I HAD TO APPROXIMATE MOST OF THE DIMENSIONS, MEANING THAT THE CURRENT CAD MODELS ARE OFF AND WILL NOT FIT. AS SOON AS I GET THE MODELS, I WILL UPDATE EVERY MODEL, ADD MORE DETAIL, AND ENSURE THEY ACTUALLY FIT. PLS DO NOT ATTEMPT TO PRINT AS IS; SCHEMATIC, CODE, AND PARTS SHOULD WORK BUT HAVE NOT BEEN TESTED!! USE AT UR ON RISK. THANKS FOR THE UNDERSTANDING AND I APOLOGIZE FOR ANY INCONVENIENCE.
+----------------------------------
+
 # Full Assembly
 <img width="562" height="315" alt="enclosure with comp" src="https://github.com/user-attachments/assets/9585e631-0b5a-4456-b01a-d8da501eb4d6" />
 <img width="548" height="317" alt="enclosure with lid" src="https://github.com/user-attachments/assets/d3ab3297-15f9-4c5a-95a1-e7994aa9b9c4" />
 
+# Inserts Map
+To assemble everything, take the inserts that fit in each hole and, using ur woldering iron, press them till they are at the same level as the material surrounding them. 
+
+Insert brass inserts map: ** Ignore this; once I have the actual measurements and have updated the model to a final one, I will create a map showing which exact holes use which insert.**
+
+# Component map
+
+<img width="880" height="577" alt="image" src="https://github.com/user-attachments/assets/701d07ad-68c2-43b6-b500-bad64cdf9564" />
+**Future note: update image with labeled parts once detailed and closer to reality models have been made**
 
 # Schematic
 <img width="663" height="407" alt="shematic" src="https://github.com/user-attachments/assets/44d2183a-5f65-4367-a244-d735f0b4f708" />
